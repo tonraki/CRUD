@@ -7,6 +7,7 @@ const connection = mysql.createConnection({
   database: "mydb",
 });
 
+
 var app = express();
 app.use(cors());
 app.use(express.json());
